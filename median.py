@@ -2,6 +2,7 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def middle(list):
+     list = sorted(list)
      mid = len(list)
      if mid%2 == 1:
          return list[mid//2]
